@@ -1,0 +1,291 @@
+
+h1,h2,h3,h4,h5,h6,p,a,.bold-link{
+    font-family: 'Dangrek', cursive;
+}
+.nav-item a{
+    font-size: 2em;
+    margin-left: 50px;
+    
+}
+.carousel-inner img {
+    width: 100%;
+   height: calc(100vh - 0px);
+    object-fit: cover;
+}
+.search-box-wrapper{
+    background-color: gray;
+}
+.search-box{
+    position: relative;
+}
+.selector{
+    width: 40px;
+}
+.search-box a{
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+.search-tab-content h4.title{
+    margin: 10px 0px;
+    height: 20px;
+}
+.full-width{
+    width: 400px;
+    height: 48px;
+
+}
+.form-group{
+    margin-top: 10px;
+}
+.clearfix{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.selector select .custom-select{
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    border: 1px solid transparent;
+    cursor: text;
+    
+}
+
+.clearfix.row a{
+    border-bottom: 4px solid #194eb0;
+}
+.search-tab-content a{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 40px;
+}
+.search-tab-content button{
+    height: 50px;
+}
+.search-tab-content input,select{
+    height: 48px;
+    border: none;
+    background-color: rgb(233, 227, 227);
+}
+.search-tab-content input:hover{
+    border:0.5px solid blue;
+}
+.search-tab-content select:hover{
+    border:0.5px solid blue;
+}
+.search-tab-content input{
+    padding-left: 10px;
+}
+.date-icon i{
+    color: #fff;
+    font-size: 20px;
+
+    
+}
+.date-icon button{
+    background-color: #1976D2;
+    margin-top: -1px;
+}
+.input-group-append:hover{
+    background-color: #388bd4;
+}
+.btn.btn-outline-primary{
+    position: relative;
+    background-color: #1976D2;
+}
+.fas.fa-angle-down{
+    color: #fff;
+}
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    height: 250px;
+    transition: all 1s ease-in-out;
+}
+
+.image:hover img {
+    transform: scale(1.20, 1.20);
+    cursor: pointer;
+}
+.card-body.card-text{
+    color: darkblue;
+}
+.description {
+    line-height: 1.6em;
+    padding-left: 70px;
+}
+.icon-box{
+    width: 90px;
+    height: 90px;
+    background-color: #fdb714;
+    text-transform: none;
+}
+.fas.fa-map-signs{
+    color: #fff;
+    padding: 20px;
+    font-size: 3em;
+}
+.animated{
+    position: relative;
+    background: none;
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    visibility: visible;
+    animation-fill-mode: both;
+    
+}
+@keyframes fadeInDown {
+    from {top: -250px;}
+    to {top: 0px;}
+}
+.pup-city button.b-bg {
+    background-color: #d9d9d9;
+}
+.pup-city div.card{
+    margin: 15px 0px;
+}
+.pup-trip div.icon-box{
+    width: 90px;
+    height: 90px;
+    background-color: #e01a33;
+    text-transform: none;
+}
+.pup-trip i.fas.fa-heart{
+    color: #fff;
+    padding: 25px;
+    font-size: 2em;
+}
+.text-overflow {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detail{
+    margin: 10px;
+    padding: 10px;
+}
+.image-box .box .box-title{
+    color: #2d3e52;
+}
+.image-box .box, .image-box.box .detail{
+    text-align: left;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.price {
+    font-family: 'Siemreap', cursive;
+    color: #7db921;
+    font-size: 1.6667em;
+    text-transform: uppercase;   
+    line-height: 1;
+    
+}
+.kh-content{
+    font-family: 'Siemreap', cursive;
+    font-weight: 400;
+    text-align: right;
+}
+.detail a{
+    font-size: 1.3em;
+    font-family: 'Siemreap', cursive;
+    font-weight: 300;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #2d3e52;
+    
+}
+.pup-trip-menu{
+    border-bottom:0.5px silver solid;
+}
+.promo-box {
+    padding-top: 80px;
+    padding-bottom:0px;
+}
+.parallax {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    overflow: hidden;
+    position: relative;
+}
+.pull-right {
+    float: right!important;
+}
+.promo-box .table-wrapper {
+    width: 100%;
+    margin: 0;
+}
+.table-wrapper {
+    display: table;
+}
+.table-wrapper .table-cell {
+    display: table-cell;
+    float: none!important;
+}
+.global-map-area {
+    background-image: url('https://khmertrips.com/img/global_map.png');
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.kh-header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+}
+.carousel-item a{
+    font-size: 1.35em;
+    color: black;
+    font-weight: 200;
+    text-decoration: none;
+}
+.carousel-item td{
+    padding: 10px;
+}
+
+  select::-ms-expand {
+    display: none;
+}
+.favorite-icon {
+    position: absolute;
+    float: right; 
+    right: 0rem; 
+    top: 0rem;
+    background-color: #4643438e;
+    width: 56px;
+    height: 56px;
+    border-radius: 2%;
+    cursor: pointer;
+}
+.favorite-icon:hover {
+    background-color: red;
+}
+.favorite-icon i{
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.btn-clickIn{
+    background-color: #01b7f2;
+}
+.btn-clickIn:hover{
+    background-color: #0d799c;
+}
+.trip-list td{
+    padding: 10px;
+}
+#footer .footer-wrapper {
+    padding: 80px 0;
+}
+.new-section-xs {
+    margin: 12px 0;
+    min-height: 1px;
+}
+.skin-color {
+    color: #194eb0;
+}
