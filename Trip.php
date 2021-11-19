@@ -39,54 +39,16 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
-        <a href="#" class="navbar-brand">
-            <img src="https://khmertrips.com/img/logo-website-xs.png" alt="logo">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav">
-                <li class="nav-itam">
-                    <a href="#" class="nav-link text-dark"><i class="fas fa-shopping-cart" style="font-size:30px"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">ចូលគណនី</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicatous">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.mappingmegan.com/wp-content/uploads/2013/07/travel-blogging-tips1-descriptive-urls.jpg" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="https://static01.nyt.com/images/2019/08/25/travel/23Lebanon-HeadsUp1/23Lebanon-HeadsUp1-superJumbo.jpg" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="https://files.worldwildlife.org/wwfcmsprod/images/amazon_skiff_travelers_travel/story_full_width/e7qxrkycz_DSC_0555.JPG" alt="">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
+    <?php include('navigation.php') ?>
+    <?php include('slideshow.php') ?>
     <div class="section content">
         <div class="search-box-wrapper">
                 <div class="search-box container" style=" background-color:#fff;">
                     <div class="clearfix row p-2">
-                        <div class="text-info active col-sm-2" style="text-aling:left;">
+                        <div class="text-info active col-sm-2" style="text-align:left;">
                             <a href="#" data-toggle="tab" aria-expanded="true">ដំណើរកំសាន្ត</a>
                         </div>
-                        <div class="col-sm-1" style="text-aling:left;">
+                        <div class="col-sm-1" style="text-align:left;">
                             <a class="text-warning " href="#" data-toggle="tab" aria-expanded="true">កំសាន្តខ្លីៗ</a>
                         </div>
                     </div>
