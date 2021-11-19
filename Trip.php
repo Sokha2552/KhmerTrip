@@ -28,7 +28,7 @@
             position: relative;
         }
         .container{
-            max-width: 1800px;
+            max-width: 1150px;
         }
         section#content {
         min-height: 400px;
@@ -39,15 +39,15 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top px-5">
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
         <a href="#" class="navbar-brand">
-            <img src="https://khmertrips.com/img/logo-website-xs.png" alt="logo" style="width:168px">
+            <img src="https://khmertrips.com/img/logo-website-xs.png" alt="logo">
         </a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto"></ul>
             <ul class="navbar-nav">
                 <li class="nav-itam">
-                    <a href="#" class="nav-link text-dark"><i class="fas fa-shopping-cart" style="font-size:40px"></i></a>
+                    <a href="#" class="nav-link text-dark"><i class="fas fa-shopping-cart" style="font-size:30px"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="#">ចូលគណនី</a>
@@ -55,7 +55,6 @@
             </ul>
         </div>
     </nav>
-    <div style="margin-top: 10px;"></div>
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicatous">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -64,13 +63,13 @@
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://www.mappingmegan.com/wp-content/uploads/2013/07/travel-blogging-tips1-descriptive-urls.jpg" alt=""  width="1100" height="500">
+                <img src="https://www.mappingmegan.com/wp-content/uploads/2013/07/travel-blogging-tips1-descriptive-urls.jpg" alt="">
             </div>
             <div class="carousel-item">
-                <img src="https://static01.nyt.com/images/2019/08/25/travel/23Lebanon-HeadsUp1/23Lebanon-HeadsUp1-superJumbo.jpg" alt=""  width="1100" height="500">
+                <img src="https://static01.nyt.com/images/2019/08/25/travel/23Lebanon-HeadsUp1/23Lebanon-HeadsUp1-superJumbo.jpg" alt="">
             </div>
             <div class="carousel-item">
-                <img src="https://files.worldwildlife.org/wwfcmsprod/images/amazon_skiff_travelers_travel/story_full_width/e7qxrkycz_DSC_0555.JPG" alt=""  width="1100" height="500">
+                <img src="https://files.worldwildlife.org/wwfcmsprod/images/amazon_skiff_travelers_travel/story_full_width/e7qxrkycz_DSC_0555.JPG" alt="">
             </div>
         </div>
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -82,9 +81,9 @@
     </div>
     <div class="section content">
         <div class="search-box-wrapper">
-                <div class="search-box container" style="top:-70px; background-color:#fff;">
-                    <div class="clearfix row py-3">
-                        <div class="text-info active col-sm-1" style="text-aling:left;">
+                <div class="search-box container" style=" background-color:#fff;">
+                    <div class="clearfix row p-2">
+                        <div class="text-info active col-sm-2" style="text-aling:left;">
                             <a href="#" data-toggle="tab" aria-expanded="true">ដំណើរកំសាន្ត</a>
                         </div>
                         <div class="col-sm-1" style="text-aling:left;">
@@ -95,10 +94,9 @@
                         <form action="#" method="post">
                             <div class="row">
                                 <div class="form-group col-sm-6 col-md-3">
-                                    <h4 class="title pb-5 pt-3 ">ទីកន្លែង</h4>
-                                    <label>ទិសដៅរបស់អ្នក</label>
-                                    <div class="input-group">
-                                        <div class="col-md-11 px-1">
+                                    <h4 class="title" style="margin-left:-15px;">ទីកន្លែង</h4>
+                                    <div class="input-group row book-text">
+                                        <label>ទិសដៅរបស់អ្នក</label>
                                         <select class="full-width">
                                             <option value="0">ទាំងអស់</option>
                                             <option value="1">ភ្នំពេញ</option>
@@ -106,27 +104,21 @@
                                             <option value="3">កំពង់ឆ្នាំង</option>
                                             <option value="4">កំពង់ស្ពឺ</option>
                                             <option value="5">កំពត</option>
-                                        </select>
-                                        </div>
-                                        <div class="col-md-1">
+                                        </select>                                       
+                                        <!--<div>
                                         <button class="btn btn-outline-primary" type="button" style="height: 48px;"><i class="fas fa-angle-down"></i></button>
-                                        </div>
+                                        </div>-->
                                     </div>
 
                                 </div>
-                                <div class="form-group col-sm-6 col-md-4">
-                                    <h4 class="title pb-5 pt-3">កាលបរិច្ឆេទ</h4>
-                                    <div class="row">
+                                <div class="form-group col-sm-6 col-md-5">
+                                    <h4 class="title">កាលបរិច្ឆេទ</h4>
+                                    <div class="row book-text">
                                         <div class="col-md-6 date-icon">
                                             <label>ចេញដំណើរ</label>
-                                            <div >
-                                                <input id="datepicker" width="276" placeholder="ខែ/ថ្ងៃ/ឆ្នាំ"/>
-                                            </div>
-                                            <script>
-                                                $('#datepicker').datepicker({
-                                                    uiLibrary: 'bootstrap4'
-                                                 });
-                                            </script>
+                                            <div>
+                                                <input style="width:50px;" id="datepicker" width="276" placeholder="ខែ/ថ្ងៃ/ឆ្នាំ"/>
+                                            </div>                                 
                                         </div>
                                         <div class="col-md-6">
                                             <label>រយៈពេល</label>
@@ -136,9 +128,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group col-sm-6 col-md-3">
-                                    <h4 class="title pb-5 pt-3" style="margin-left:-10px">អ្នកដំណើរ</h4>
-                                    <div class="row">
+                                <div class="form-group col-sm-6 col-md-2">
+                                    <h4 class="title" style="margin-left:-14px">អ្នកដំណើរ</h4>
+                                    <div class="row book-text">
                                         <div class="col-xs-6">
                                             <label>ចំនួនមនុស្ស</label>
                                             <div class="catepicker-wrap">
@@ -148,8 +140,8 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-sm-6 col-md-2">
-                                  <div class="btn-group mt-5">
-                                      <button type="button" class="btn btn-success"><a class="text-white" href="#">ស្វែងរកឥឡូវនេះ</a></button>
+                                  <div class="btn-group btn-search">
+                                      <button type="button" class="btn btn-success search-btn"><a class="text-white" href="#">ស្វែងរកឥឡូវនេះ</a></button>
                                       <button type="button" class="btn btn-success px-2">
                                       <i class="fas fa-check"></i>
                                       </button>
@@ -165,66 +157,82 @@
         <div class="blog section parallax" style="min-height: 300px; background-position: 50% 63.5px;" data-stellar-background-ratio="0.5">
             <div class="container" style="background-color:#f5f5f5;">
                 <div class="text-center pt-5">
-                    <h1>ថ្មីៗពីខ្មែរទ្រីប</h1>
+                    <h3>ថ្មីៗពីខ្មែរទ្រីប</h3>
                 </div>
-                <div class="row pt-5  animated fadeInDown">
+                <div class="row pt-3 animated fadeInDown">
                     <div class="col-md-4">
                         <div class="card" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;">
                             <div class="image">
-                            <img class="hover-zoonin card-img-top" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/cms-announcement/xhVoPoZC8GEf5mJZ5HIFWMfqbaz62LpF.png" alt="Card image" style="width:100%">
+                            <img class="hover-zoonin card-img-top" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/cms-announcement/xhVoPoZC8GEf5mJZ5HIFWMfqbaz62LpF.png" alt="Card image">
                             </div>
                             <div class="card-body">
-                            <p class="card-text"><a href="#" style="font-size:1.5em; text-decoration:none;color:darkblue;"> ទទួលបាននូវព័ត៍មានអំពី ដំណើរកម្សាន្តថ្មីៗ ព្រមជាមួយតម្លៃពិសេស រៀងរាល់សប្តាហ៍</a></p>
+                            <p class="card-text"><a href="#"> ទទួលបាននូវព័ត៍មានអំពី ដំណើរកម្សាន្តថ្មីៗ ព្រមជាមួយតម្លៃពិសេស រៀងរាល់សប្តាហ៍</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;">
                             <div class="image">
-                            <img class="hover-zoonin card-img-top" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/cms-announcement/8oWleAN2xlbCKx34abAuu-dj5g9pMNnb.png" alt="Card image" style="width:100%">
+                            <img class="hover-zoonin card-img-top" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/cms-announcement/8oWleAN2xlbCKx34abAuu-dj5g9pMNnb.png" alt="Card image">
                             </div>
                             <div class="card-body">
-                            <p class="card-text"><a href="#" style="font-size:1.5em; text-decoration:none;color:darkblue;"> ខ្មែរទ្រីបនាំមកជូនលោកអ្នកនូវបទពិសោធន៍ថ្មីនៃការកក់ដំណើរកម្សាន្តបែបលក្ខណះឯកជន</a></p>
+                            <p class="card-text"><a href="#"> ខ្មែរទ្រីបនាំមកជូនលោកអ្នកនូវបទពិសោធន៍ថ្មីនៃការកក់ដំណើរកម្សាន្តបែបលក្ខណះឯកជន</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;">
                             <div class="image">
-                            <img class="hover-zoonin card-img-top" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/cms-announcement/qmrgraFsCznRYEk_ZMBJPh2A-KVTS0aS.png" alt="Card image" style="width:100%">
+                            <img class="hover-zoonin card-img-top" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/cms-announcement/qmrgraFsCznRYEk_ZMBJPh2A-KVTS0aS.png" alt="Card image">
                             </div>
                             <div class="card-body">
-                            <p class="card-text"><a href="#" style="font-size:1.5em; text-decoration:none;color:darkblue;"> កាន់តែងាយស្រួលសំរាប់ការកក់ដំនើរកំសាន្តជាមួយការបង់ប្រាក់តាម Payway</a></p>
+                            <p class="card-text"><a href="#"> កាន់តែងាយស្រួលសំរាប់ការកក់ដំនើរកំសាន្តជាមួយការបង់ប្រាក់តាម Payway</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container" style="background-color:#f5f5f5;margin-top:4em;padding-top: 30px;">
+            <div class="container web-path">
                 <div class="row">
-                    <div class="col-md-1">
-                    <div class="icon-box text-center">
+                    <div class="icon-box text-center mx-3 mt-1">
                     <i class="fas fa-map-signs"></i>
                     </div>
-                    </div>
-                    <div class="col-md-10">
-                    <h1>ខេត្តកំពុងពេញនិយម</h1>
-                    <p style="font-size: 1.5em;">ស្វែងរកដំណើរកំសាន្តដ៏សំបូរបែបរបស់លោកអ្នកតាមខេត្តនីមួយៗ</p>
+                    <div>
+                    <h3>ខេត្តកំពុងពេញនិយម</h3>
+                    <p>ស្វែងរកដំណើរកំសាន្តដ៏សំបូរបែបរបស់លោកអ្នកតាមខេត្តនីមួយៗ</p>
                     </div>   
                 </div>
                 <div class="row pup-city">
                     <div class="col-md-3">
                         <div class="card">
-                            <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/SodBXw7A1H9MDlb6cuwKaeoUC9X6hyO4.png" alt="Card image" style="width:100%; height:300px;">
+                            <div class="image pup-city-pic">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/SodBXw7A1H9MDlb6cuwKaeoUC9X6hyO4.png" alt="Card image" style="height:200px;">
                             </div>
                             <div class="card-body">
                                 <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>ព្រះវិហារ</h4>
-                                        <p>(៤+ ដំណើរកំសាន្ត)</p>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>ព្រះវិហារ</h6>
+                                        <p style="font-size:10px">(៤+ ដំណើរកំសាន្ត)</p>
                                     </div>
-                                    <div class="col-sm-7 text-right">
+                                    <div class="col-sm-6 col-md-6">
+                                        <button class="btn b-bg"><a href="#" class="text-white">ទាំងអស់់គ្នា</a></button>
+                                    </div>                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="image ">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/lOtuTTnwRs1L9lsp7iVydNeVUIkLy70s.png" alt="Card image" style="height:200px;">
+                            </div>
+                            <div class="card-body">
+                                <div class="row">                               
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>សៀមរាប</h6>
+                                        <p style="font-size:10px">(៣+ ដំណើរកំសាន្ត)</p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 text-right">
                                         <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
                                     </div>                       
                                 </div>
@@ -234,15 +242,15 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/lOtuTTnwRs1L9lsp7iVydNeVUIkLy70s.png" alt="Card image" style="width:100%; height:300px;">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/gQSm1qIfVSFPdHXyNznnIrRUrhxduybk.png" alt="Card image" style="height:200px;">
                             </div>
                             <div class="card-body">
                                 <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>សៀមរាប</h4>
-                                        <p>(៣+ ដំណើរកំសាន្ត)</p>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>កោះកុង</h6>
+                                        <p style="font-size:10px">(៣+ ដំណើរកំសាន្ត)</p>
                                     </div>
-                                    <div class="col-sm-7 text-right">
+                                    <div class="col-sm-6 col-md-6 text-right">
                                         <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
                                     </div>                       
                                 </div>
@@ -252,15 +260,15 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/gQSm1qIfVSFPdHXyNznnIrRUrhxduybk.png" alt="Card image" style="width:100%; height:300px;">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/nBdXhUEQStj1EflyhyrvS1mpIhOoJ9B0.png" alt="Card image" style="height:200px;">
                             </div>
                             <div class="card-body">
                                 <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>កោះកុង</h4>
-                                        <p>(៣+ ដំណើរកំសាន្ត)</p>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>កំពត</h6>
+                                        <p style="font-size:10px">(២+ ដំណើរកំសាន្ត)</p>
                                     </div>
-                                    <div class="col-sm-7 text-right">
+                                    <div class="col-sm-6 col-md-6 text-right">
                                         <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
                                     </div>                       
                                 </div>
@@ -270,15 +278,15 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/nBdXhUEQStj1EflyhyrvS1mpIhOoJ9B0.png" alt="Card image" style="width:100%; height:300px;">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/jJNLC7VC1Z8tovcK7q42etXsk2wEXOmW.png" alt="Card image" style="height:200px;">
                             </div>
                             <div class="card-body">
                                 <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>កំពត</h4>
-                                        <p>(២+ ដំណើរកំសាន្ត)</p>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>កែប</h6>
+                                        <p style="font-size:10px">(២+ ដំណើរកំសាន្ត)</p>
                                     </div>
-                                    <div class="col-sm-7 text-right">
+                                    <div class="col-sm-6 col-md-6 text-right">
                                         <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
                                     </div>                       
                                 </div>
@@ -288,15 +296,15 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/jJNLC7VC1Z8tovcK7q42etXsk2wEXOmW.png" alt="Card image" style="width:100%; height:300px;">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/ofo7SyLgOHEIFIeSe_EFNfgGZaXU9fH5.png" alt="Card image" style="height:200px;">
                             </div>
                             <div class="card-body">
                                 <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>កែប</h4>
-                                        <p>(២+ ដំណើរកំសាន្ត)</p>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>មណ្ឌលគិរី</h6>
+                                        <p style="font-size:10px">(២+ ដំណើរកំសាន្ត)</p>
                                     </div>
-                                    <div class="col-sm-7 text-right">
+                                    <div class="col-sm-6 col-md-6 text-right">
                                         <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
                                     </div>                       
                                 </div>
@@ -306,15 +314,15 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/ofo7SyLgOHEIFIeSe_EFNfgGZaXU9fH5.png" alt="Card image" style="width:100%; height:300px;">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/DoznZHbPDifsXQXzkuPZk8LIMaEHwLVq.png" alt="Card image" style="height:200px;">
                             </div>
                             <div class="card-body">
                                 <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>មណ្ឌលគិរី</h4>
-                                        <p>(២+ ដំណើរកំសាន្ត)</p>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>ព្រះសីហនុ</h6>
+                                        <p style="font-size:10px">(២+ ដំណើរកំសាន្ត)</p>
                                     </div>
-                                    <div class="col-sm-7 text-right">
+                                    <div class="col-sm-6 col-md-6 text-right">
                                         <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
                                     </div>                       
                                 </div>
@@ -324,33 +332,15 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/DoznZHbPDifsXQXzkuPZk8LIMaEHwLVq.png" alt="Card image" style="width:100%; height:300px;">
+                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/6Nq8RTXI68q3y3xkwVOOdTdfXE4zO0PK.png" alt="Card image"  style="height:200px;">
                             </div>
                             <div class="card-body">
                                 <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>ព្រះសីហនុ</h4>
-                                        <p>(២+ ដំណើរកំសាន្ត)</p>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h6>ភូកេត</h6>
+                                        <p style="font-size:10px">(១+ ដំណើរកំសាន្ត)</p>
                                     </div>
-                                    <div class="col-sm-7 text-right">
-                                        <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
-                                    </div>                       
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="image ">
-                                <img class="hover-zoonin card-img-top animated fadeInDown" src="https://khmertrips-resource.s3.ap-southeast-1.amazonaws.com/destination/6Nq8RTXI68q3y3xkwVOOdTdfXE4zO0PK.png" alt="Card image" style="width:100%; height:300px;">
-                            </div>
-                            <div class="card-body">
-                                <div class="row">                               
-                                    <div class="col-sm-5">
-                                        <h4>ភូកេត</h4>
-                                        <p>(១+ ដំណើរកំសាន្ត)</p>
-                                    </div>
-                                    <div class="col-sm-7 text-right">
+                                    <div class="col-sm-6 col-md-6 text-right">
                                         <button class="btn b-bg t-3"><a href="#" class="text-white" style="font-size: 1em;">ទាំងអស់់គ្នា</a></button>
                                     </div>                       
                                 </div>
@@ -359,27 +349,24 @@
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                    <button​ class="btn btn-primary px-5 py-3"><a href="#" class="text-white" style="font-size:1.25em;">ស្វែងរកកន្លែងកំសាន្តជាច្រើនទៀត</a></button>
+                    <button​ class="btn px-4 py-2"style="background-color:#01b7f2;"><a href="#" class="text-white" style="font-size:0.8em;text-decoration:none;">ស្វែងរកកន្លែងកំសាន្តជាច្រើនទៀត</a></button>
                 </div>
             </div>
-            <div class="section content mb-5" style="background-color:#f5f5f5;padding-top:30px;">
-                <div class="container​​​   pup-trip" style="background-color:#f5f5f5;margin-top:4em;">
+            <div class="section content web-path">
+                <div class="container​​​ pup-trip">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-1">
-                                <div class="icon-box text-center">
-                                    <i class="fas fa-heart"></i>
-                                </div>
+                            <div class="icon-box text-center mx-3 mt-1">
+                                <i class="fas fa-heart"></i>
                             </div>
-                            <div class="col-md-9">
-                                <h1>ដំណើរកំសាន្តពេញនិយម</h1>
-                                <p style="font-size: 1.5em;">រីករាយ និងទទួលបទពិសោធន៍ថ្មី ជាមួយកញ្ចប់ដំណើរកម្សាន្តដែលកំពុងមានប្រជាប្រិយភាពនៅថ្ងៃនេះ</p>
+                            <div>
+                                <h3>ដំណើរកំសាន្តពេញនិយម</h3>
+                                <p>រីករាយ និងទទួលបទពិសោធន៍ថ្មី ជាមួយកញ្ចប់ដំណើរកម្សាន្តដែលកំពុងមានប្រជាប្រិយភាពនៅថ្ងៃនេះ</p>
                             </div>  
-                            <div class="col-md-2 text-right" style="padding-top: 75px;">
-                                <a href="#"​ class="text-primary" style="font-size: 1.68em;">មើលទាំងអស់</a>
+                            <div class="col-md-3 text-right" style="padding-top: 40px;">
+                                <a href="#"​ class="text-primary" style="font-size: 1em;">មើលទាំងអស់</a>
                             </div> 
                         </div>
-                        <br>
                         <div class="row image-box">
                             <div class="col-md-4">
                                 <div class="box">
@@ -389,14 +376,14 @@
                                     <div class="details">
                                         <div class="detail pup-trip-menu">
                                             <div class="row text-right">               
-                                                <div class="col-sm-9">
+                                                <div class="col-sm-8">
                                                     <p class="box-title text-lg text-overflow">
                                                         <a href="#" data-toggle="tooltip" data-placement="top" title="បោះតង់មើលពពក​ នៅស្ទឹងពពក ស្ទឹងពង្រូល ផ្លូវវង្វេង ២ថ្ងៃ ១យប់">
                                                             បោះតង់មើលពពក​​ នៅស្ទឹងពពក ស្ទឹងពង្រូល ផ្លូវវង្វេង ២ថ្ងៃ ១យប់
                                                         </a>
                                                     </p>
                                                 </div>
-                                                <div class="col-sm-3 kh-content">
+                                                <div class="col-sm-4">
                                                     <small class="kh-content">ចាប់ពី</small>
                                                     <h4 class="price">US$ 63</h4>
                                                 </div>                                           
@@ -404,14 +391,14 @@
                                         </div>
                                         <div class="detail pup-trip-menu">
                                             <div class="row text-right">               
-                                                <div class="col-sm-9">
+                                                <div class="col-sm-8">
                                                     <p class="box-title text-lg text-overflow">
                                                         <a href="#" data-toggle="tooltip" data-placement="top" title="ដើរព្រៃ បោះតង់ ភ្នំត្បែងមានជ័យ ដែនដីពិសិដ្ឋ​ ៣ថ្ងៃ ២យប់">
                                                             ដើរព្រៃ បោះតង់ ភ្នំត្បែងមានជ័យ ដែនដីពិសិដ្ឋ​ ៣ថ្ងៃ ២យប់
                                                         </a>
                                                     </p>
                                                 </div>
-                                                <div class="col-sm-3">
+                                                <div class="col-sm-4">
                                                     <small class="kh-content">ចាប់ពី</small>
                                                     <h4 class="price">US$ 144</h4>
                                                 </div>                                           
@@ -799,7 +786,7 @@
                                             <table style="width:100%">
                                                 <tbody  class="detail trip-list">
                                                     <tr style="border-bottom:1px solid #B1B1B1;">
-                                                        <td colspan="2"><a href="#"></a>បោះតង់មើលពពក​ នៅស្ទឹងពពក ស្ទឹងពង្រូល ថ្មវង្វេង ២ថ្ងៃ​ ១យប់</td>
+                                                        <td colspan="2"><a href="#">បោះតង់មើលពពក​ នៅស្ទឹងពពក ស្ទឹងពង្រូល ថ្មវង្វេង ២ថ្ងៃ​ ១យប់</a></td>
                                                     </tr>
                                                     <tr style="border-bottom:1px solid #B1B1B1;">
                                                         <td style="width:55%; text-align:left"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></td>
@@ -1958,6 +1945,11 @@
             </div>
         </div>
     </div>
+    <script>
+                                                $('#datepicker').datepicker({
+                                                    uiLibrary: 'bootstrap4'
+                                                 });
+                                            </script>
 </body>
 <footer id="footer">
    <div class="footer-wraper​ bg-white" style="padding:80px 0px">
